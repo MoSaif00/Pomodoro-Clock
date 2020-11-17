@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1F555C;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: white;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+.heading{
+    margin-bottom: 70px;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 50;
+}
+.session-length{
+    width: 150px;
+    margin: 0 auto;
+}
+.session-length h2{
+    margin-bottom: 35px;
+}
+.session-length h4{
+    font-size: 30px;
+}
+.length-contain{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.length-contain i {
+    font-size: 40px;   
+}
+.length-contain i:hover{
+    color: cadetblue;
+}
+.session-counter{
+    border:#14353A solid 3px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding:10px 70px 20px 70px;
+}
+.session-counter h4{
+    font-size: 35px;
+    padding: 15px;
+}
+.count-player button{
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.count-player button:hover{
+    background-color: #33646b;
+}
+button i{
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#time-up{
+    visibility: hidden;
+}
+.length-contain button{
+    background-color: transparent;
+    border: none;
+}
