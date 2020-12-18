@@ -26,7 +26,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MoSaif00/SImple-Weather-App/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MoSaif00/Pomodoro-Clock/issues).
 
 ## Show your support
 
